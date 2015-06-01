@@ -1,8 +1,10 @@
 -module(p04).
 -export([len/1]).
 
+
 len([])->
 	0;
+	
 len(L)->
 	len(L,0).
 
