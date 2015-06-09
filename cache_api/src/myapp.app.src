@@ -1,0 +1,15 @@
+{application, myapp,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {modules, [
+             cache_api
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { myapp_app, []}},
+  {env, []}
+ ]}.
